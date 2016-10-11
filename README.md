@@ -12,15 +12,15 @@
 
 ## Installation
 
-1. `git clone` the repository:
+1. [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
+   or clone the repository:
 
    `git clone https://github.com/bardisty/gruvbox-rofi`
 
 2. Edit your `~/.Xresources` file and include one of the two themes:
 
    ```xdefaults
-   #include /home/your-user/path/to/gruvbox-dark.theme
-   #include /home/your-user/path/to/gruvbox-light.theme
+   #include /home/user/path/to/gruvbox-dark.theme
    ```
 
 3. Merge your edited `.Xresources` file with `xrdb`:
@@ -36,7 +36,7 @@ The following commands will install the dark theme:
 - `echo '#include "/home/your-user/.Xresources.d/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.Xresources`
 - `xrdb -merge ~/.Xresources`
 
-To install gruvbox light instead, replace step 3 with:
+To install the light theme instead, replace step 3 with:
 
 `echo '#include "/home/your-user/.Xresources.d/rofi/themes/gruvbox/gruvbox-light.theme"' >> ~/.Xresources`
 
@@ -44,7 +44,7 @@ To install gruvbox light instead, replace step 3 with:
 
 ## Links
 
-- [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run dialog
+- [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run dialog,
   and dmenu replacement
 - [Gruvbox](https://github.com/morhetz/gruvbox) color scheme for Vim
 
