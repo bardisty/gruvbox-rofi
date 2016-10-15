@@ -1,8 +1,7 @@
 # gruvbox-rofi
 
 > Gruvbox dark and light themes for Rofi
-
-Rofi color themes based on the
+[Rofi](https://github.com/DaveDavenport/rofi) color themes based on the
 [Gruvbox color scheme](https://github.com/morhetz/gruvbox).
 
 Includes six versions to choose from:
