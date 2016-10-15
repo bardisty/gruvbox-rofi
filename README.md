@@ -14,27 +14,29 @@ Includes six versions to choose from:
   - [Gruvbox Light (soft contrast)](#soft-contrast-gruvbox-light-softtheme)
   - [Gruvbox Light (hard contrast)](#hard-contrast-gruvbox-light-hardtheme)
 
-## Dark ([`gruvbox-dark.theme`](gruvbox-dark.theme))
+## Screenshots
+
+### Dark ([`gruvbox-dark.theme`](gruvbox-dark.theme))
 
 ![gruvbox dark theme screenshot](docs/gruvbox-dark.png "gruvbox dark theme")
 
-### Soft Contrast ([`gruvbox-dark-soft.theme`](gruvbox-dark-soft.theme))
+#### Dark (soft contrast) ([`gruvbox-dark-soft.theme`](gruvbox-dark-soft.theme))
 
 ![gruvbox dark theme (soft contrast) screenshot](docs/gruvbox-dark-soft.png "gruvbox dark theme (soft contrast)")
 
-### Hard Contrast ([`gruvbox-dark-hard.theme`](gruvbox-dark-hard.theme))
+#### Dark (hard contrast) ([`gruvbox-dark-hard.theme`](gruvbox-dark-hard.theme))
 
 ![gruvbox dark theme (hard contrast) screenshot](docs/gruvbox-dark-hard.png "gruvbox dark theme (hard contrast)")
 
-## Light ([`gruvbox-light.theme`](gruvbox-light.theme))
+### Light ([`gruvbox-light.theme`](gruvbox-light.theme))
 
 ![gruvbox light theme screenshot](docs/gruvbox-light.png "gruvbox light theme")
 
-### Soft Contrast ([`gruvbox-light-soft.theme`](gruvbox-light-soft.theme))
+#### Light (soft contrast) ([`gruvbox-light-soft.theme`](gruvbox-light-soft.theme))
 
 ![gruvbox light theme (soft contrast) screenshot](docs/gruvbox-light-soft.png "gruvbox light theme (soft contrast)")
 
-### Hard Contrast ([`gruvbox-light-hard.theme`](gruvbox-light-hard.theme))
+#### Light (hard contrast) ([`gruvbox-light-hard.theme`](gruvbox-light-hard.theme))
 
 ![gruvbox light theme (hard contrast) screenshot](docs/gruvbox-light-hard.png "gruvbox light theme (hard contrast)")
 
