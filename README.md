@@ -8,11 +8,11 @@
 Includes six versions to choose from:
 
 - __[Gruvbox Dark](#dark-gruvbox-darktheme)__
-  - [Gruvbox Dark (soft contrast)](#soft-contrast-gruvbox-dark-softtheme)
-  - [Gruvbox Dark (hard contrast)](#hard-contrast-gruvbox-dark-hardtheme)
+  - [Gruvbox Dark (soft contrast)](#dark-soft-contrast-gruvbox-dark-softtheme)
+  - [Gruvbox Dark (hard contrast)](#dark-hard-contrast-gruvbox-dark-hardtheme)
 - __[Gruvbox Light](#light-gruvbox-lighttheme)__
-  - [Gruvbox Light (soft contrast)](#soft-contrast-gruvbox-light-softtheme)
-  - [Gruvbox Light (hard contrast)](#hard-contrast-gruvbox-light-hardtheme)
+  - [Gruvbox Light (soft contrast)](#light-soft-contrast-gruvbox-light-softtheme)
+  - [Gruvbox Light (hard contrast)](#light-hard-contrast-gruvbox-light-hardtheme)
 
 ## Screenshots
 
