@@ -59,14 +59,13 @@ Includes six versions to choose from:
 
 ### Example Install
 
-The following commands will install the dark theme:
+The following commands will install the dark theme. *Replace `your-user` in
+step 3 with your system user account name.*
 
 1. `mkdir -p ~/.Xresources.d/rofi/themes/gruvbox`
 - `git clone https://github.com/bardisty/gruvbox-rofi ~/.Xresources.d/rofi/themes/gruvbox`
 - `echo '#include "/home/your-user/.Xresources.d/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.Xresources`
 - `xrdb -merge ~/.Xresources`
-
-*Be sure to replace `your-user` in step 3 with the name of your user.*
 
 ## Links
 
