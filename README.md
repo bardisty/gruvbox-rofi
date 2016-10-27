@@ -69,8 +69,8 @@ step 3 with your system user account name.*
 
 ## Links
 
-- [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run dialog,
-  and dmenu replacement
+- [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run
+  launcher, ssh dialog, and dmenu replacement
 - [Gruvbox](https://github.com/morhetz/gruvbox) color scheme for Vim
 
 ## License
