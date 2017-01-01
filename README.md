@@ -42,30 +42,10 @@ Includes six versions to choose from:
 
 ## Installation
 
-1. [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
-   or clone the repository:
-
-   `git clone https://github.com/bardisty/gruvbox-rofi`
-
-2. Edit your `~/.Xresources` file and include one of the themes:
-
-   ```xdefaults
-   #include /home/user/path/to/gruvbox-dark.theme
-   ```
-
-3. Merge your edited `.Xresources` file with `xrdb`:
-
-   `xrdb -merge ~/.Xresources`
-
-### Example Install
-
-The following commands will install the dark theme. *Replace `your-user` in
-step 3 with your system user account name.*
-
-1. `mkdir -p ~/.Xresources.d/rofi/themes/gruvbox`
-- `git clone https://github.com/bardisty/gruvbox-rofi ~/.Xresources.d/rofi/themes/gruvbox`
-- `echo '#include "/home/your-user/.Xresources.d/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.Xresources`
-- `xrdb -merge ~/.Xresources`
+These themes are included with Rofi as of version
+[1.3.0](https://github.com/DaveDavenport/rofi/releases/tag/1.3.0). Run
+`rofi-theme-selector` to preview/apply them with Rofi's theme selector
+script.
 
 ## Links
 
