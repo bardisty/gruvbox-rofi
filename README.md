@@ -47,6 +47,57 @@ These themes are included with Rofi as of version
 `rofi-theme-selector` to preview/apply them with Rofi's theme selector
 script.
 
+See [Manual Installation](#manual-installation) if you wish to install the
+themes manually. This may be preferable if you plan on customizing them.
+See also [Customization](#customization).
+
+### Manual Installation
+
+1. [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
+   or clone the repository:
+
+   `git clone https://github.com/bardisty/gruvbox-rofi`
+
+2. Edit your Rofi configuration file (`~/.config/rofi/config`) and include
+   one of the themes:
+
+   ```xdefaults
+   #include /home/user/path/to/gruvbox-dark.theme
+   ```
+
+#### Example Install
+
+The following commands will install the dark theme. *Replace `your-user` in
+the last step with your system user account name.*
+
+1. mkdir -p ~/.config/rofi/themes/gruvbox
+- git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox
+- echo '#include "/home/your-user/.config/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.config/rofi/config
+
+## Customization
+
+Customization can be done a few ways:
+- Edit a `.theme` file directly, or make a copy of the `.theme` file and
+  edit that (see [Manual Installation](#manual-installation))
+- Copy the contents of a `.theme` file into your Rofi configuration file
+  (`~/.config/rofi/config`) and modify it there
+- Apply a theme with `rofi-theme-selector` or add it to the Rofi
+  configuration file manually (see [Manual Installation](#manual-installation)),
+  then add your overrides under the `#include` line, for example:
+
+  ```xdefaults
+  ! Gruvbox color scheme
+  #include "/home/user/.config/rofi/themes/gruvbox-dark.theme"
+
+  ! gruvbox-dark.theme: green for active row background colors (default: yellow)
+  !                  bg       fg       bg-alt   hl-bg,   hl-fg
+  rofi.color-active: #98971a, #282828, #98971a, #b8bb26, #282828
+  ```
+
+The last option is ideal if you only want to change a setting or two, such
+as the active row colors or the border color. It also allows you to easily
+remain updated with the upstream versions of the themes.
+
 ## Links
 
 - [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run
