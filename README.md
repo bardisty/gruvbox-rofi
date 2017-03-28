@@ -71,8 +71,8 @@ The following commands will install the dark theme. *Replace `your-user` in
 the last step with your system user account name.*
 
 1. `mkdir -p ~/.config/rofi/themes/gruvbox`
-- `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
-- `echo '#include "/home/your-user/.config/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.config/rofi/config`
+2. `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
+3. `echo '#include "/home/your-user/.config/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.config/rofi/config`
 
 ## Customization
 
