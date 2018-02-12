@@ -8,7 +8,7 @@
    Desc: Gruvbox dark color theme for Rofi
    Author: bardisty <b@bah.im>
    Source: https://github.com/bardisty/gruvbox-rofi
-   Modified: Mon Feb 12 2018 01:52:25 PST -0800
+   Modified: Mon Feb 12 2018 04:08:43 PST -0800
    ========================================================================== */
 
 * {
@@ -78,7 +78,6 @@ message {
 textbox {
     highlight:  @highlight;
     text-color: @foreground;
-    font:       @font;
 }
 
 listview {
