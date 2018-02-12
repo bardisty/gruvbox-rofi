@@ -16,27 +16,27 @@ Includes six versions to choose from:
 
 ## Screenshots
 
-### Dark ([`gruvbox-dark.theme`](gruvbox-dark.theme))
+### Dark ([`gruvbox-dark.rasi`](gruvbox-dark.rasi))
 
 ![gruvbox dark theme screenshot](docs/gruvbox-dark.png "gruvbox dark theme")
 
-#### Dark (soft contrast) ([`gruvbox-dark-soft.theme`](gruvbox-dark-soft.theme))
+#### Dark (soft contrast) ([`gruvbox-dark-soft.rasi`](gruvbox-dark-soft.rasi))
 
 ![gruvbox dark theme (soft contrast) screenshot](docs/gruvbox-dark-soft.png "gruvbox dark theme (soft contrast)")
 
-#### Dark (hard contrast) ([`gruvbox-dark-hard.theme`](gruvbox-dark-hard.theme))
+#### Dark (hard contrast) ([`gruvbox-dark-hard.rasi`](gruvbox-dark-hard.rasi))
 
 ![gruvbox dark theme (hard contrast) screenshot](docs/gruvbox-dark-hard.png "gruvbox dark theme (hard contrast)")
 
-### Light ([`gruvbox-light.theme`](gruvbox-light.theme))
+### Light ([`gruvbox-light.rasi`](gruvbox-light.rasi))
 
 ![gruvbox light theme screenshot](docs/gruvbox-light.png "gruvbox light theme")
 
-#### Light (soft contrast) ([`gruvbox-light-soft.theme`](gruvbox-light-soft.theme))
+#### Light (soft contrast) ([`gruvbox-light-soft.rasi`](gruvbox-light-soft.rasi))
 
 ![gruvbox light theme (soft contrast) screenshot](docs/gruvbox-light-soft.png "gruvbox light theme (soft contrast)")
 
-#### Light (hard contrast) ([`gruvbox-light-hard.theme`](gruvbox-light-hard.theme))
+#### Light (hard contrast) ([`gruvbox-light-hard.rasi`](gruvbox-light-hard.rasi))
 
 ![gruvbox light theme (hard contrast) screenshot](docs/gruvbox-light-hard.png "gruvbox light theme (hard contrast)")
 
@@ -49,7 +49,6 @@ script.
 
 See [Manual Installation](#manual-installation) if you wish to install the
 themes manually. This may be preferable if you plan on customizing them.
-See also [Customization](#customization).
 
 ### Manual Installation
 
@@ -58,45 +57,19 @@ See also [Customization](#customization).
 
    `git clone https://github.com/bardisty/gruvbox-rofi`
 
-2. Edit your Rofi configuration file (`~/.config/rofi/config`) and include
-   one of the themes:
+2. Edit your Rofi configuration file (`~/.config/rofi/config`):
 
    ```xdefaults
-   #include /home/user/path/to/gruvbox-dark.theme
+   rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi
    ```
 
 #### Example Install
 
-The following commands will install the dark theme. *Replace `your-user` in
-the last step with your system user account name.*
+The following commands will install the dark theme.
 
 1. `mkdir -p ~/.config/rofi/themes/gruvbox`
 2. `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
-3. `echo '#include "/home/your-user/.config/rofi/themes/gruvbox/gruvbox-dark.theme"' >> ~/.config/rofi/config`
-
-## Customization
-
-Customization can be done a few ways:
-- Edit a `.theme` file directly, or make a copy of the `.theme` file and
-  edit that (see [Manual Installation](#manual-installation))
-- Copy the contents of a `.theme` file into your Rofi configuration file
-  (`~/.config/rofi/config`) and modify it there
-- Apply a theme with `rofi-theme-selector` or add it to the Rofi
-  configuration file manually (see [Manual Installation](#manual-installation)),
-  then add your overrides under the `#include` line, for example:
-
-  ```xdefaults
-  ! Gruvbox color scheme
-  #include "/home/user/.config/rofi/themes/gruvbox-dark.theme"
-
-  ! gruvbox-dark.theme: green for active row background colors (default: yellow)
-  !                  bg       fg       bg-alt   hl-bg,   hl-fg
-  rofi.color-active: #98971a, #282828, #98971a, #b8bb26, #282828
-  ```
-
-The last option is ideal if you only want to change a setting or two, such
-as the active row colors or the border color. It also allows you to easily
-remain updated with the upstream versions of the themes.
+3. `echo "rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi" >> ~/.config/rofi/config`
 
 ## Links
 
