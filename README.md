@@ -55,21 +55,13 @@ themes manually. This may be preferable if you plan on customizing them.
 1. [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
    or clone the repository:
 
-   `git clone https://github.com/bardisty/gruvbox-rofi`
+   `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
 
 2. Edit your Rofi configuration file (`~/.config/rofi/config`):
 
    ```xdefaults
    rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi
    ```
-
-#### Example Install
-
-The following commands will install the dark theme.
-
-1. `mkdir -p ~/.config/rofi/themes/gruvbox`
-2. `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
-3. `echo "rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi" >> ~/.config/rofi/config`
 
 ## Links
 
