@@ -7,12 +7,12 @@
 
 Includes six versions to choose from:
 
-- __[Gruvbox Dark](#dark-gruvbox-darkrasi)__
-  - [Gruvbox Dark (soft contrast)](#dark-soft-contrast-gruvbox-dark-softrasi)
-  - [Gruvbox Dark (hard contrast)](#dark-hard-contrast-gruvbox-dark-hardrasi)
-- __[Gruvbox Light](#light-gruvbox-lightrasi)__
-  - [Gruvbox Light (soft contrast)](#light-soft-contrast-gruvbox-light-softrasi)
-  - [Gruvbox Light (hard contrast)](#light-hard-contrast-gruvbox-light-hardrasi)
+-   **[Gruvbox Dark](#dark-gruvbox-darkrasi)**
+    -   [Gruvbox Dark (soft contrast)](#dark-soft-contrast-gruvbox-dark-softrasi)
+    -   [Gruvbox Dark (hard contrast)](#dark-hard-contrast-gruvbox-dark-hardrasi)
+-   **[Gruvbox Light](#light-gruvbox-lightrasi)**
+    -   [Gruvbox Light (soft contrast)](#light-soft-contrast-gruvbox-light-softrasi)
+    -   [Gruvbox Light (hard contrast)](#light-hard-contrast-gruvbox-light-hardrasi)
 
 ## Screenshots
 
@@ -52,22 +52,24 @@ themes manually. This may be preferable if you plan on customizing them.
 
 ### Manual Installation
 
-1. [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
-   or clone the repository:
+1.  [Download](https://github.com/bardisty/gruvbox-rofi/archive/master.zip)
+    or clone the repository:
 
-   `git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox`
+    ```shell
+    git clone https://github.com/bardisty/gruvbox-rofi ~/.config/rofi/themes/gruvbox
+    ```
 
-2. Edit your Rofi configuration file (`~/.config/rofi/config`):
+2.  Edit your Rofi configuration file (`~/.config/rofi/config`):
 
-   ```xdefaults
-   rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi
-   ```
+    ```xdefaults
+    rofi.theme: ~/.config/rofi/themes/gruvbox/gruvbox-dark.rasi
+    ```
 
 ## Links
 
-- [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run
-  launcher, ssh dialog, and dmenu replacement
-- [Gruvbox](https://github.com/morhetz/gruvbox) color scheme for Vim
+-   [Rofi](https://github.com/DaveDavenport/rofi) window switcher, run
+    launcher, ssh dialog, and dmenu replacement
+-   [Gruvbox](https://github.com/morhetz/gruvbox) color scheme for Vim
 
 ## License
 
